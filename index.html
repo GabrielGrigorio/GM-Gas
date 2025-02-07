@@ -76,10 +76,25 @@
     </section>
 
     <section id="contato">
-        <h2>Fale Conosco</h2>
-        <p>Entre em contato para mais informações sobre nossos produtos e serviços:</p>
-        <p>Email: <a href="mailto:contato@gaspecas.com">gmgasinstala@gmail.com</a></p>
-        <p>Telefone: (11) 94176-1433</p>
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato para mais informações sobre nossos produtos e serviços:</p>
+    <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone">
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+    <p>Email: <a href="mailto:gmgasinstala@gmail.com">gmgasinstala@gmail.com</a></p>
+    <p>Telefone: (11) 94176-1433</p>
         
         <!-- Botões para acessar produtos e serviços -->
         <div class="buttons">
@@ -87,6 +102,19 @@
             <button id="btnServicos">Ver Serviços</button>
         </div>
     </section>
+  <section id="blog">
+    <h2>Blog</h2>
+    <article>
+        <h3>Dicas de Segurança para Sistemas de Gás</h3>
+        <p>Manter seu sistema de gás seguro é fundamental. Aqui estão algumas dicas...</p>
+        <a href="#">Leia mais</a>
+    </article>
+    <article>
+        <h3>Como Escolher o Melhor Medidor de Gás</h3>
+        <p>Escolher o medidor de gás certo pode economizar dinheiro e garantir segurança...</p>
+        <a href="#">Leia mais</a>
+    </article>
+</section>
 
     <footer>
         <p>&copy; 2024 GM Gás Instalações - Peças e Serviços para Sistemas de Gás - Todos os direitos reservados.</p>
