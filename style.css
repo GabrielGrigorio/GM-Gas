@@ -146,12 +146,6 @@ h2::after {
     margin-bottom: 20px;
 }
 
-#contato p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #333; /* Cor do texto */
-}
-
 #contato label {
     display: block;
     margin: 10px 0 5px;
@@ -172,17 +166,7 @@ h2::after {
     color: #192a56; /* Azul escuro */
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#contato button:hover {
-    background-color: #273c75; /* Azul escuro ao passar o mouse */
-    color: white; /* Texto branco ao passar o mouse */
-}
-
+    padding
 #contato a {
     color: #fbc531; /* Amarelo da logo */
     text-decoration: none;
