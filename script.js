@@ -45,3 +45,21 @@ function highlightCurrentSection() {
             const sectionHeight = section.clientHeight;
 
             if
+
+         // Função para lidar com o envio do formulário de contato
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio padrão do formulário
+
+    // Captura os dados do formulário
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    // Aqui você pode adicionar lógica para enviar os dados para um servidor
+    // Por enquanto, vamos apenas exibir um alerta
+    alert(`Obrigado, ${name}! Sua mensagem foi enviada com sucesso.\n\nDetalhes:\nEmail: ${email}\nTelefone: ${phone}\nMensagem: ${message}`);
+
+    // Limpa o formulário após o envio
+    document.getElementById('contactForm').reset();
+});       
