@@ -31,3 +31,17 @@ function backToTopButton() {
     button.id = 'backToTop';
     button.style.position = 'fixed';
     button.style.bottom = '20px';}
+
+// Função para destacar a seção atual no menu de navegação
+function highlightCurrentSection() {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('nav a');
+
+    window.addEventListener('scroll', () => {
+        let current = '';
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+
+            if
