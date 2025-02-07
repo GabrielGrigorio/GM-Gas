@@ -129,7 +129,67 @@ h2::after {
     font-size: 1rem;
     margin-top: 10px;
 }
+/* Formulário de Contato */
+#contato {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+#contato label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contato input, #contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+}
+
+#contato button {
+    background-color: #fbc531;
+    color: #192a56;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contato button:hover {
+    background-color: #273c75;
+    color: white;
+}
+
+/* Blog */
+#blog {
+    margin-top: 40px;
+}
+
+#blog article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#blog h3 {
+    margin: 0 0 10px;
+}
+
+#blog a {
+    color: #fbc531;
+    text-decoration: none;
+}
+
+#blog a:hover {
+    text-decoration: underline;
+}
 /* Contato */
 #contato p {
     font-size: 1.2rem;
