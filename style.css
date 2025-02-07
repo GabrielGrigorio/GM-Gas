@@ -232,6 +232,32 @@ h2::after {
 
 /* Rodapé */
     /* Estilos para os ícones de redes sociais */
+footer {
+    background-color: #192a56; /* Azul escuro */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer a {
+    color: #fbc531; /* Amarelo da logo */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para os ícones de redes sociais */
 .social-media {
     margin-top: 10px;
 }
@@ -248,61 +274,4 @@ h2::after {
 
 .social-media img:hover {
     transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
-}
-
-footer {
-
-    background-color: #192a56;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
-}
-
-footer p {
-    font-size: 1rem;
-    margin: 0;
-}
-
-footer a {
-    color: #fbc531;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .item {
-        width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    nav a {
-        font-size: 1rem;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-
-    section {
-        padding: 40px 20px;
-    }
-
-    header img {
-        height: 60px;
-    }
-}
-
-nav a.active {
-    background-color: #fbc531; /* Amarelo da logo */
-    color: #192a56; /* Azul escuro */
 }
