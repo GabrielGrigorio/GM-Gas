@@ -230,7 +230,6 @@ h2::after {
     color: white;
 }
 
-/* Rodapé */
 footer {
     background-color: #192a56; /* Azul escuro */
     color: white;
@@ -244,7 +243,7 @@ footer {
 
 footer p {
     font-size: 1rem;
-    margin: 10px 0; /* Margem para espaçamento */
+    margin: 0;
 }
 
 footer a {
@@ -253,7 +252,25 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline; /* Sublinhado ao passar o mouse */
+    text-decoration: underline;
 }
 
+/* Estilos para os ícones de redes sociais */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px; /* Tamanho do ícone */
+    height: 30px; /* Tamanho do ícone */
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
 
