@@ -231,7 +231,6 @@ h2::after {
 }
 
 /* Rodapé */
-    /* Estilos para os ícones de redes sociais */
 footer {
     background-color: #192a56; /* Azul escuro */
     color: white;
@@ -245,7 +244,7 @@ footer {
 
 footer p {
     font-size: 1rem;
-    margin: 0;
+    margin: 10px 0; /* Margem para espaçamento */
 }
 
 footer a {
@@ -254,22 +253,26 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
 
 /* Estilos para os ícones de redes sociais */
 .social-media {
-    margin-top: 10px;
+    margin-top: 10px; /* Espaçamento acima dos ícones */
 }
 
 .social-media a {
-    margin: 0 10px;
+    margin: 0 10px; /* Espaçamento entre os ícones */
 }
 
 .social-media img {
     width: 30px; /* Tamanho do ícone */
     height: 30px; /* Tamanho do ícone */
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Efeito de transição */
+}
+
+.social-media img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
 }
 
 .social-media img:hover {
