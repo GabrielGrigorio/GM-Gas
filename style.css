@@ -129,6 +129,7 @@ h2::after {
     font-size: 1rem;
     margin-top: 10px;
 }
+
 /* Estilos para a Seção de Contato */
 #contato {
     background-color: #ffffff; /* Fundo branco */
@@ -138,11 +139,13 @@ h2::after {
     margin: 20px auto; /* Centraliza a seção */
     max-width: 600px; /* Limita a largura da seção */
 }
+
 #contato h2 {
     font-size: 2rem;
     color: #192a56; /* Azul escuro */
     margin-bottom: 20px;
 }
+
 #contato p {
     font-size: 1.2rem;
     margin-bottom: 20px;
@@ -153,6 +156,7 @@ h2::after {
     margin: 10px 0 5px;
     font-weight: bold;
 }
+
 #contato input, #contato textarea {
     width: 100%;
     padding: 10px;
@@ -161,6 +165,7 @@ h2::after {
     border-radius: 5px;
     font-size: 1rem; /* Tamanho da fonte */
 }
+
 #contato button {
     background-color: #fbc531; /* Amarelo da logo */
     color: #192a56; /* Azul escuro */
@@ -175,10 +180,12 @@ h2::after {
     background-color: #273c75; /* Azul escuro ao passar o mouse */
     color: white; /* Texto branco ao passar o mouse */
 }
+    padding
 #contato a {
     color: #fbc531; /* Amarelo da logo */
     text-decoration: none;
 }
+
 #contato a:hover {
     text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
@@ -282,7 +289,27 @@ h2::after {
 }
 
 /* Rodapé */
+/* Estilos para os ícones de redes sociais */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px; /* Tamanho do ícone */
+    height: 30px; /* Tamanho do ícone */
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
 footer {
+
     background-color: #192a56;
     color: white;
     text-align: center;
