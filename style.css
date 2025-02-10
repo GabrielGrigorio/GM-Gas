@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+* Estilos Gerais */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -6,7 +6,6 @@ body {
     background-color: #f5f5f5;
     color: #333;
 }
-
 /* Cabeçalho */
 header {
     background-color: #273c75; /* Azul da logo */
@@ -16,18 +15,15 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
 }
-
 header h1 {
     font-size: 2.5rem;
     margin: 10px 0;
 }
-
 header p {
     font-size: 1.2rem;
     margin-top: 10px;
     font-weight: 300;
 }
-
 header img {
     position: absolute;
     top: 20px;
@@ -37,11 +33,9 @@ header img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
-
 header img:hover {
     transform: scale(1.1);
 }
-
 /* Navegação */
 nav {
     display: flex;
@@ -50,7 +44,6 @@ nav {
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 nav a {
     color: white;
     text-decoration: none;
@@ -61,11 +54,9 @@ nav a {
     border-radius: 30px;
     transition: background-color 0.3s ease;
 }
-
 nav a:hover {
     background-color: #fbc531; /* Amarelo da logo */
 }
-
 /* Seções */
 section {
     padding: 60px 20px;
@@ -73,14 +64,12 @@ section {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 h2 {
     font-size: 2rem;
     color: #192a56; /* Azul escuro */
     margin-bottom: 40px;
     position: relative;
 }
-
 h2::after {
     content: '';
     display: block;
@@ -89,14 +78,12 @@ h2::after {
     background-color: #fbc531; /* Amarelo */
     margin: 10px auto 0;
 }
-
 /* Produtos e Serviços */
 .produtos, .servicos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 .item {
     background-color: white;
     border: 2px solid #dcdde1; /* Cinza claro */
@@ -107,148 +94,23 @@ h2::after {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
 .item:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 .item img {
     max-width: 100%;
     border-radius: 10px;
 }
-
 .item h3 {
     margin-top: 20px;
     color: #273c75;
     font-size: 1.5rem;
 }
-
 .item p {
     color: #7f8fa6;
     font-size: 1rem;
     margin-top: 10px;
-}
-
-/* Estilos para a Seção de Contato */
-#contato {
-    background-color: #ffffff; /* Fundo branco */
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px auto; /* Centraliza a seção */
-    max-width: 600px; /* Limita a largura da seção */
-}
-
-#contato h2 {
-    font-size: 2rem;
-    color: #192a56; /* Azul escuro */
-    margin-bottom: 20px;
-}
-
-#contato p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #333; /* Cor do texto */
-}
-#contato label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
-}
-
-#contato input, #contato textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #dcdde1; /* Borda cinza claro */
-    border-radius: 5px;
-    font-size: 1rem; /* Tamanho da fonte */
-}
-
-#contato button {
-    background-color: #fbc531; /* Amarelo da logo */
-    color: #192a56; /* Azul escuro */
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-#contato button:hover {
-    background-color: #273c75; /* Azul escuro ao passar o mouse */
-    color: white; /* Texto branco ao passar o mouse */
-}
-    padding
-#contato a {
-    color: #fbc531; /* Amarelo da logo */
-    text-decoration: none;
-}
-
-#contato a:hover {
-    text-decoration: underline; /* Sublinhado ao passar o mouse */
-}
-/* Formulário de Contato */
-#contato {
-    background-color: #ffffff;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#contato label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-#contato input, #contato textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #dcdde1;
-    border-radius: 5px;
-}
-
-#contato button {
-    background-color: #fbc531;
-    color: #192a56;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#contato button:hover {
-    background-color: #273c75;
-    color: white;
-}
-
-/* Blog */
-#blog {
-    margin-top: 40px;
-}
-
-#blog article {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#blog h3 {
-    margin: 0 0 10px;
-}
-
-#blog a {
-    color: #fbc531;
-    text-decoration: none;
-}
-
-#blog a:hover {
-    text-decoration: underline;
 }
 /* Contato */
 #contato p {
@@ -256,21 +118,17 @@ h2::after {
     margin-top: 20px;
     color: #192a56;
 }
-
 #contato a {
     color: #fbc531;
     text-decoration: none;
 }
-
 #contato a:hover {
     text-decoration: underline;
 }
-
 /* Botões */
 .buttons {
     margin-top: 20px;
 }
-
 .buttons button {
     background-color: #fbc531; /* Amarelo da logo */
     color: #192a56; /* Azul escuro */
@@ -282,34 +140,12 @@ h2::after {
     transition: background-color 0.3s ease;
     margin: 0 10px;
 }
-
 .buttons button:hover {
     background-color: #273c75; /* Azul da logo */
     color: white;
 }
-
 /* Rodapé */
-/* Estilos para os ícones de redes sociais */
-.social-media {
-    margin-top: 10px;
-}
-
-.social-media a {
-    margin: 0 10px;
-}
-
-.social-media img {
-    width: 30px; /* Tamanho do ícone */
-    height: 30px; /* Tamanho do ícone */
-    transition: transform 0.3s ease;
-}
-
-.social-media img:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
-}
-
 footer {
-
     background-color: #192a56;
     color: white;
     text-align: center;
@@ -319,46 +155,37 @@ footer {
     width: 100%;
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
 }
-
 footer p {
     font-size: 1rem;
     margin: 0;
 }
-
 footer a {
     color: #fbc531;
     text-decoration: none;
 }
-
 footer a:hover {
     text-decoration: underline;
 }
-
 /* Responsividade */
 @media (max-width: 768px) {
     .item {
         width: 80%;
     }
 }
-
 @media (max-width: 480px) {
     nav a {
         font-size: 1rem;
     }
-
     header h1 {
         font-size: 2rem;
     }
-
     section {
         padding: 40px 20px;
     }
-
     header img {
         height: 60px;
     }
 }
-
 nav a.active {
     background-color: #fbc531; /* Amarelo da logo */
     color: #192a56; /* Azul escuro */
