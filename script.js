@@ -59,4 +59,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     // Limpa o formulário após o envio
     document.getElementById('contactForm').reset();
 });
-
+function searchFunction() {
+    const input = document.getElementById('searchInput');
+    const filter = input.value.toLowerCase();
+    const produtos = document.querySelectorAll('.produtos .item');
+    const servicos = document.querySelectorAll('.servicos .item');
