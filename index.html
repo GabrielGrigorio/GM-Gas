@@ -1,18 +1,29 @@
 <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GM Gás - Peças e Serviços para Gás</title>
+    <title>Venda de Peças de Gás e Serviços</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
 </head>
 <body>
 
     <header>
         <img src="https://i.postimg.cc/J07Thbx4/logo-gm-g-s.jpg" alt="Logo GM Gás">
-        <h1>GM Gás Instalações</h1>
+
+ <h1>GM Gás instalações</h1>
         <p>Sua solução completa em peças e serviços para gás residencial e industrial.</p>
     </header>
 
@@ -20,7 +31,6 @@
         <a href="#produtos">Produtos</a>
         <a href="#servicos">Serviços</a>
         <a href="#contato">Contato</a>
-        <a href="#blog">Blog</a>
     </nav>
 
     <section id="produtos">
@@ -68,41 +78,58 @@
     <section id="contato">
         <h2>Fale Conosco</h2>
         <p>Entre em contato para mais informações sobre nossos produtos e serviços:</p>
-        <form id="contactForm">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="phone">Telefone:</label>
-            <input type="tel" id="phone" name="phone">
-            
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
-        <p>Email: <a href="mailto:gmgasinstala@gmail.com">gmgasinstala@gmail.com</a></p>
+        <p>Email: <a href="mailto:contato@gaspecas.com">gmgasinstala@gmail.com</a></p>
         <p>Telefone: (11) 94176-1433</p>
-    </section>
-    <footer>
-    <div class="social-media">
-        <a href="https://web.facebook.com/gmgasinstala/?locale=pt_BR&_rdc=1&_rdr#" target="_blank">
-            <img src="https://i.postimg.cc/D0Zrryd6/face.png" alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/gmgasinstala/" target="_blank">
-            <img src="https://i.postimg.cc/0yJCXjgH/Insta.png" alt="Instagram" />
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=11941761433" target="_blank">
-            <img src="https://i.postimg.cc/RhsTynV2/Whats.png" alt="Whatsapp" />
-        </a>
-    </div>
-    <p>&copy; 2024 GM Gás Instalações - Peças e Serviços para Sistemas de Gás - Todos os direitos reservados.</p>
-    <p><a href="#produtos">Voltar ao topo</a></p>
-</footer>
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato para mais informações sobre nossos produtos e serviços:</p>
+    <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone">
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+    <p>Email: <a href="mailto:gmgasinstala@gmail.com">gmgasinstala@gmail.com</a></p>
+    <p>Telefone: (11) 94176-1433</p>
 
-    <section id="blog">
-        <h2>Blog</h2>
-        <article>
-            <h3>Dicas de Segurança para Sistemas de Gás</h3
+        <!-- Botões para acessar produtos e serviços -->
+        <div class="buttons">
+            <button id="btnProdutos">Ver Produtos</button>
+            <button id="btnServicos">Ver Serviços</button>
+        </div>
+    </section>
+  <section id="blog">
+    <h2>Blog</h2>
+    <article>
+        <h3>Dicas de Segurança para Sistemas de Gás</h3>
+        <p>Manter seu sistema de gás seguro é fundamental. Aqui estão algumas dicas...</p>
+        <a href="#">Leia mais</a>
+    </article>
+    <article>
+        <h3>Como Escolher o Melhor Medidor de Gás</h3>
+        <p>Escolher o medidor de gás certo pode economizar dinheiro e garantir segurança...</p>
+        <a href="#">Leia mais</a>
+    </article>
+</section>
+
+    <footer>
+        <p>&copy; 2024 GM Gás Instalações - Peças e Serviços para Sistemas de Gás - Todos os direitos reservados.</p>
+        <p><a href="#produtos">Voltar ao topo</a></p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
