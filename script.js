@@ -59,3 +59,29 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     // Limpa o formulário após o envio
     document.getElementById('contactForm').reset();
 });
+function searchFunction() {
+    const input = document.getElementById('searchInput');
+    const filter = input.value.toLowerCase();
+    const produtos = document.querySelectorAll('.produtos .item');
+    const servicos = document.querySelectorAll('.servicos .item');
+
+    // Filtrar produtos
+    produtos.forEach(item => {
+        const title = item.querySelector('h3').textContent.toLowerCase();
+        if (title.includes(filter)) {
+            item.style.display = '';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+
+    // Filtrar serviços
+    servicos.forEach(item => {
+        const title = item.querySelector('h3').textContent.toLowerCase();
+        if (title.includes(filter)) {
+            item.style.display = '';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
